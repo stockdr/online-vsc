@@ -3,6 +3,19 @@
 #include <time.h>
 #include <malloc.h>
 
+struct st_info
+{
+    int id;                 // 이름
+    char name[10];          // 
+    double score;
+    struct st_info* link;
+};
+int main()
+{
+
+}
+
+/*
 int main()
 {
     int numOfMatrix = 0;
@@ -98,3 +111,4 @@ int main()
     }
     printf("의 합 %d\n", maxNumOfLine);
 }
+*/
